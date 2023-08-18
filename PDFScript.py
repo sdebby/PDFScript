@@ -23,7 +23,6 @@ def InjectPayload(FN,PL): # inject payload intoPDF file
     writer = PdfWriter()
     for page in reader.pages:
         writer.add_page(page)
-    # writer.add_js("this.print({bUI:true,bSilent:false,bShrinkToFit:true});") # add payload
     writer.add_js(PL) # add payload
     writer.add_metadata(reader.metadata)
     SaveFNLST=FN.split('.')
