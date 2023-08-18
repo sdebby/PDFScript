@@ -15,9 +15,9 @@ pip install pypdf
 ```
 
 ### Use
-'payload.js' is the payload file
+**'payload.js'** is the payload file
 
-'installation.pdf' is the PDF file you want to inject
+**'installation.pdf'** is the PDF file you want to inject
 ```bash
 python PDFScript.py -i installation.pdf -p payload.js
 ```
