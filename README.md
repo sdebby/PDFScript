@@ -21,8 +21,3 @@ pip install pypdf
 ```bash
 python PDFScript.py -i installation.pdf -p payload.js
 ```
-## TODOs
-
-
-## Feedback
-If you have any feedback, please reach out at shmulik.debby@gmail.com
